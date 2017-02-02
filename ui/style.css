@@ -20,12 +20,10 @@ body {
 .img-medium {
     height: 400px;
 }
-
-   .container{
-            max-width :800;
+  .container{
+            max-width:800;
             margin: 0 auto;
             color: blue;
             font-family: cursive;
             padding:300px;
         }
-
