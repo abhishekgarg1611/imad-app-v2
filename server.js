@@ -8,9 +8,16 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-3.html'));
+});
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
+});
 
-
-
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+});
 ccapp.get('ui/main.js',function (req, res) {
 res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
